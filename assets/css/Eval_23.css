@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&family=Oooh+Baby&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&family=Oooh+Baby&display=swap');
 
 body{
     font-family: 'Montserrat Alternates', sans-serif;
@@ -9,9 +9,11 @@ body{
     margin-top: 20em;
     margin-left: auto;
     margin-right: auto;
-    width: 6em;
+    width: 30em;
 }
 #btn{
+    color: goldenrod;
+    background-color: blue;
     margin-top: 30em;
     margin-left: 67em;
     margin-right: auto;

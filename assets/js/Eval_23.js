@@ -9,3 +9,14 @@ let arrayOfQuotes = [["Mamamia", "Mario"],
 ["- Excusez-moi mais vous êtes en train d’uriner sur ma voiture.  -Hein ? Ho, Ha oui ! … Mais c’est parce que j’ai la même là bas, j’ai confondu ! … Je peux finir ? - Oui.", "Les bronzés font du ski. "]]
 
 let buttonSelector = document.querySelector("#btn");
+let textSelelector = document.querySelector(".container");
+
+// document.body.style.background = "linear-gradient(#f69d3c, #3f87a6))";
+
+buttonSelector.addEventListener("click", ()=>{
+    var rand = Math.floor(Math.random()*arrayOfQuotes.length);
+    var rValue = arrayOfQuotes[rand];
+    // alert(rValue);
+    // document.write(rValue);
+    textSelelector.innerHTML = rValue;
+})
