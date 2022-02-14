@@ -2,13 +2,17 @@
 
 body{
     background: linear-gradient(0.25turn, #303282, #d5d07d);
+    font-size: 20px;
 }
-
-div{
+p{
     font-family: 'Satisfy', cursive;
+
+}
+div{
+
     background-color:white;
     text-align: center;
-    font-size: large;
+
     margin-top: 10em;
     margin-left: auto;
     margin-right: auto;
@@ -23,6 +27,6 @@ div{
     font-size: larger;
     padding: 1rem;
     margin-top: 5em;
-    margin-left: 45em;
+    margin-left: 45%;
     margin-right: auto;
 }
