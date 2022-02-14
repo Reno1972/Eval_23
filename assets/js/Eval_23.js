@@ -15,9 +15,10 @@ let textReturn= document.querySelector(".return");
 
 buttonSelector.addEventListener("click", ()=>{
 
-    var index=returnText(arrayOfQuotes);
-    textSelelector.innerText=`${arrayOfQuotes[index][0]}`;
-    textReturn.innerText=`${arrayOfQuotes[index][1]}`;
+        var condition=index
+        var index=returnText(arrayOfQuotes);
+        textSelelector.innerText=`${arrayOfQuotes[index][0]}`;
+        textReturn.innerText=`${arrayOfQuotes[index][1]}`;
 })
 
 function returnText(array){

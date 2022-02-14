@@ -1,36 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 body{
-    background-color: rgb(95, 95, 141);
+    background: linear-gradient(0.25turn, #303282, #d5d07d);
 }
-.container{
-    text-align: center;
+
+div{
     font-family: 'Satisfy', cursive;
+    background-color:white;
+    text-align: center;
     font-size: large;
     margin-top: 10em;
     margin-left: auto;
     margin-right: auto;
     border: dashed;
-    padding: 5rem;
+    padding: 10rem;
     width: 30em;
-    background-color: rgb(97, 60, 46);
 }
-.return{
-    text-align: center;
-    font-family: 'Satisfy', cursive;
-    font-size: large;
-    margin-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    border: dashed;
-    padding: 5rem;
-    width: 30em;
-    background-color: rgb(141, 84, 63);
-}
+
 #btn{
     color: goldenrod;
     background-color: blue;
+    font-size: larger;
+    padding: 1rem;
     margin-top: 5em;
-    margin-left: 67em;
+    margin-left: 45em;
     margin-right: auto;
 }
