@@ -10,13 +10,17 @@ let arrayOfQuotes = [["Mamamia", "Mario"],
 
 let buttonSelector = document.querySelector("#btn");
 let textSelelector = document.querySelector(".container");
+let textReturn= document.querySelector(".return");
 
-// document.body.style.background = "linear-gradient(#f69d3c, #3f87a6))";
 
 buttonSelector.addEventListener("click", ()=>{
-    var rand = Math.floor(Math.random()*arrayOfQuotes.length);
-    var rValue = arrayOfQuotes[rand];
-    // alert(rValue);
-    // document.write(rValue);
-    textSelelector.innerHTML = rValue;
+
+    var index=returnText(arrayOfQuotes);
+    textSelelector.innerText=`${arrayOfQuotes[index][0]}`;
+    textReturn.innerText=`${arrayOfQuotes[index][1]}`;
 })
+
+function returnText(array){
+    let rand = Math.floor(Math.random()*array.length);
+    return rand;
+}

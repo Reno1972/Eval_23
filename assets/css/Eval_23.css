@@ -1,20 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&family=Oooh+Baby&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 body{
-    font-family: 'Montserrat Alternates', sans-serif;
-    font-family: 'Oooh Baby', cursive;
     background-color: rgb(95, 95, 141);
 }
 .container{
-    margin-top: 20em;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: large;
+    margin-top: 10em;
     margin-left: auto;
     margin-right: auto;
+    border: dashed;
+    padding: 5rem;
     width: 30em;
+    background-color: rgb(97, 60, 46);
+}
+.return{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: large;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border: dashed;
+    padding: 5rem;
+    width: 30em;
+    background-color: rgb(141, 84, 63);
 }
 #btn{
     color: goldenrod;
     background-color: blue;
-    margin-top: 30em;
+    margin-top: 5em;
     margin-left: 67em;
     margin-right: auto;
 }
