@@ -11,14 +11,16 @@ let arrayOfQuotes = [["Mamamia", "Mario"],
 let buttonSelector = document.querySelector("#btn");
 let textSelelector = document.querySelector(".container");
 let textReturn= document.querySelector(".return");
-
+var condition = 0;
 
 buttonSelector.addEventListener("click", ()=>{
+    do{
 
-        var condition=index
         var index=returnText(arrayOfQuotes);
         textSelelector.innerText=`${arrayOfQuotes[index][0]}`;
         textReturn.innerText=`${arrayOfQuotes[index][1]}`;
+    }while(condition == index)
+    condition = index
 })
 
 function returnText(array){
